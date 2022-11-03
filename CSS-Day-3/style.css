@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100&family=Source+Sans+Pro:ital,wght@1,300&display=swap');
+
+
+/* 
+h3{
+    background-color: rgb(255, 100, 0);
+} */
+
+p.top{
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+    word-spacing: 4.5rem;
+    font-family: 'Poppins';
+}
+
+p#bottom{
+    border: 5px solid black;
+    font-size: 20px;
+    /* padding: 20px;    
+    border-radius: 10px;
+    margin: 10px; */
+    /* padding-left: 10px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    padding-right: 40px; */
+    /* padding: 20px 40px; */
+    /* margin-top: 40px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    margin-right: 10px; */
+    margin: 20px 40px;
+}
+
+.categories{
+    border: 5px solid black;
+    border-radius: 6px;
+    padding: 10px;
+    font-family: 'Poppins';
+}
+.categories h2{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.categories ul{
+    padding: 0;
+    list-style: none;
+}
+
+.categories a{
+    text-decoration: none;
+    color: black;
+}
+
+.categories a:hover{
+    color: orange;
+}
+
+.categories li{
+    margin-bottom: 15px;
+    border-bottom: 1px dotted blue;
+}
+
+
+.my-form{
+    padding: 20px;
+    
+}
+.form-gp .my-form{
+    padding-bottom: 15px;
+    font-family: 'Poppins';
+}
+
+.my-form label{
+    display: block;
+}
+.my-form input[type="text"], .my-form textarea{
+    padding: 8px;
+    width: 100%;
+}
+
+.btn{
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+    width: 20%;
+    background-color: lightblue;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    color: orangered;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.btn:hover{
+    background-color: orangered;
+    color: lightblue;
+}
+
+.btn:active{
+    background-color: orange;
+    color: white;
+}
+
+.block{
+    float: left;
+    width: 50%;
+    padding: 10px;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+.block1{
+    float: right;
+    width: 50%;
+    padding: 10px;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+.pbox{
+    width: 800px;
+    height: 600px;
+    border: 5px solid blue;
+    position: relative;
+    background-image: url(./images/polina-kuzovkova-nCsKKNpqlGE-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pbox h2{
+    position: absolute;
+    top: 40px;
+    left: 200px;
+}
+.pbox h3{
+    position: absolute;
+    bottom: 60px;
+    right: 100px;
+}
+
+.FBTN{
+    position: fixed;
+    top: 80px;
+}
+
+/* .odd li:first-child{
+    color: red;
+    background: pink;
+}
+
+.odd li:last-child{
+    color: pink;
+    background: red;
+}
+
+.odd li:nth-child(3){
+    color: white;
+    background: black;
+}
+
+.odd li:nth-child(5){
+    color: orangered;
+    background: palegreen;
+} */
+
+.odd li:nth-child(odd){
+    color: white;
+    background: black;
+}
+
+.odd li:nth-child(even){
+    color: pink;
+    background: green;
+}
