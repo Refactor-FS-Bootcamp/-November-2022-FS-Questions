@@ -38,3 +38,7 @@ Hit the Fake API Endpoint - https://fakestoreapi.com/products and show the produ
 Assignment 10
 ------
 Hit the Fake API Endpoint - https://fakestoreapi.com/products and show the product with image, title and price. Use Hook based ReactJS
+
+Assignment 11
+------
+Create an app with React router v6 project by referring to this YouTube video - https://www.youtube.com/watch?v=8t5f0u8BVuM
